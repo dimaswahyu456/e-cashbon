@@ -91,6 +91,18 @@ return [
             'prefix_indexes' => true,
         ],
 
+        'firebird' => [
+            'driver'   => 'firebird',
+            'host'     => env('DB_HOST_2', ''),
+            'port'     => env('DB_PORT_2', '3050'),
+            'database' => env('DB_DATABASE_2', ''),
+            'username' => env('DB_USERNAME_2', ''),
+            'password' => env('DB_PASSWORD_2', ''),
+            'charset'  => 'UTF8',
+            'role'     => null,
+            'engine_version' => '2.5',
+        ],
+
     ],
 
     /*
